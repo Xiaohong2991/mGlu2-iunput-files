@@ -5,7 +5,7 @@ This repository houses the essential input files required for conducting researc
 
 ### Overview
 Metabotropic glutamate receptors (mGluRs) are a class of G protein-coupled receptors (GPCRs) that play a crucial role in synaptic transmission and plasticity. mGlu2 is one of the eight known mGluRs and has been implicated in various neurological and psychiatric disorders.
-
+ 
 ### Authors
 Xiaohong Zhu: zhuxiaohong@cuhk.edu.cn
 
