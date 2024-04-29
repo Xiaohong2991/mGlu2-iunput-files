@@ -8,4 +8,5 @@ Metabotropic glutamate receptors (mGluRs) are a class of G protein-coupled recep
 
 ### Authors
 Xiaohong Zhu: zhuxiaohong@cuhk.edu.cn
+
 Chen Bai: baichen@cuhk.edu.cn
