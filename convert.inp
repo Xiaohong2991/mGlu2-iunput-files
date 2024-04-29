@@ -1,0 +1,32 @@
+s3.pdb keepnoh
+ez
+	relax
+ 		map_pf 151 1 2
+ 		relax_map_lambda 1.0 0.0
+ 		md_parm
+			pdb2_ave_r0_cons s2.pdb 100 
+    			ss 0.001
+			nsteps 20
+			temp 300
+			gas_phase 1
+			region2a_r 140
+			movie_co all
+			movie_fq 40
+		end
+	end
+end
+aa
+   	makepdb
+		residue all
+		file_nm int.pdb
+	end
+
+
+	viewmovie
+		multiframe_pdb ./convert/movie.dat 151
+		view_fq 40
+		frame 50
+	end
+end
+end
+end

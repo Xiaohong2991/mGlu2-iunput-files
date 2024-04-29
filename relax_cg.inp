@@ -1,0 +1,29 @@
+./after_relax.pdb fold2 0 0 0 0 keepnoh
+    enzymix
+        relax
+            md_parm
+                temperature 50
+                nsteps 5000
+                ss 0.001
+		region2a_r 140
+                movie_co all
+                movie_fq 100
+                rest_fq 500
+		gas_phase 1
+                log_write_fq 100
+            end
+        end
+    end
+    analyze
+        makepdb
+            residue all
+            file_nm after_relaxCG.pdb
+        end
+        viewmovie
+            file_nm movie.dat
+            view_fq 100
+            vwall
+            form pdb
+        end
+    end
+end

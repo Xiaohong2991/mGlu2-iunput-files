@@ -1,0 +1,7 @@
+./1inactivate_relax.pdb
+	analyze
+            add_memgrid 147.3 149.2 102.6 Y 70.0 70.0 48.0 2 3.0
+         end
+end
+
+

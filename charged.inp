@@ -1,0 +1,38 @@
+../../../pdbs/pdldNN.pdb keephis
+
+polaris
+	pre_pol
+		iontyp ASP
+		iontyp GLU
+		iontyp ARG
+		iontyp LYS
+	end
+
+	bind_pdld
+		reg1_res 1185 1186
+		config 0 2 
+		md_parm_r
+		np 11000  #(for repeats)
+		stepsize 0.001
+		log_write_fq 100
+		constraint_res 5.0 1185 1186
+	end
+
+	md_parm_w
+		stepsize 0.001
+		np 200
+		log_write_fq 100
+		constraint_res 5.0 1185 1186
+	end
+
+	md_parm_p
+		np 2000
+		stepsize 0.001
+		log_write_fq 100
+		constraint_res 5.0 1185 1186
+	end
+end
+end
+end
+
+
